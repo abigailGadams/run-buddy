@@ -4,6 +4,10 @@
     margin: 0px;;
 }
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: tomato;
+  }
 
 header {
     color:yellow;
@@ -36,7 +40,6 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -52,3 +55,4 @@ p {
     background-size: cover;
     background-position: center;
 }
+
