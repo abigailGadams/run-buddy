@@ -56,13 +56,29 @@ p {
     font-size: 16px;
 }
 
-.primaryImage {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/images/images-run-buddy.jpeg");
+section {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+  }
+
+/* Hero Style start here*/
+.hero {
+    background-image: url("../assets/images/hero-bg.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
+}
+
+.hero-form {
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    background-color:#fce138;
+    /* shorthand way to include border styling*/
+    border-style: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
 
 footer {
@@ -87,3 +103,4 @@ footer div {
 footer a {
     color:#024e67;
 }
+
