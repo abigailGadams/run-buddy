@@ -61,3 +61,15 @@ p {
     background-position: center;
 }
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
