@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/style.css">
         <title>Run Buddy</title>
     </head>
     <body>
@@ -26,7 +26,41 @@
                     </ul>
                 </nav>
         </header>
-
+        <!-- Building the Hero with signup form container-->
+        <section>
+            <div>
+                <h3>Get Started Today!</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult </p>
+                <!--adding the form-->
+                <form>
+                    <label for = "name">Enter Full Name:</label>
+                    <input type="text" placeholder= "Your Name" name ="name" id="name"/>
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" />
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                    <!--Creating yes no button to check for user input-->
+                    <p>
+                        Have You worked out with a trainer before?
+                        <input type= "radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <!--Adding button to make sure user is 18-->
+                    <p>
+                        <label for="checkbox" >
+                          I acknowledge that I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                      </p>
+                      <button type="submit">
+                        Get running!
+                      </button>
+                </form>
+            
+            </div>
+        </section>
         <!-- hero/jumbotron -->
         <img class="primaryImage"></img>
         
