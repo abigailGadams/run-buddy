@@ -1,4 +1,14 @@
-# run-buddy
-Created a website that allows users to access fitness training services and resources
+# Run Buddy
 
-        Created using HTML and CSS
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [Abigail Adams]
